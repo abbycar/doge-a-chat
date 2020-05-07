@@ -18,7 +18,7 @@ And returns this image:
 
 To kick off the process, a user enter the `/doge` command followed by the image URL they want to dogeify in a Slack channel.
 
-![doge slash](https://drive.google.com/uc?export=view&id=1AmfMz04TXtxppWoJN1YDv37CJHJ7Hq-B)
+![doge slash](https://storage.googleapis.com/dogeify-storage/dogeslash.png)
 
 
 The functionality of this app is broken down into two Cloud Functions.
@@ -29,7 +29,7 @@ Triggered by HTTP requests from the Slackbot.
 Upon verifying the Slack equest, the function sends a message to Pub/Sub that contains the
 request data. The function returns a message back to the Slack channel in the meantime.
 
-![doge-a-chat working on it message!](https://drive.google.com/uc?export=view&id=1SB0mFpHhkvw1haaFsVUs2clLX5DOAef8)
+![doge-a-chat working on it message!](https://storage.googleapis.com/dogeify-storage/dogework.png)
 
 ### doge-response
 Triggered when a message is published to a specified Pub/Sub topic.
@@ -42,4 +42,4 @@ to get the [labels](https://cloud.google.com/vision/docs/labels) associated with
    
 The image is uploaded to Cloud Storage and sent back to the Slack channel as a message.
 
-![doge response](https://drive.google.com/uc?export=view&id=1uBCAvXMbRdHSxMm73VxsMV_6EEoXDVL2)
+![doge response](https://storage.googleapis.com/dogeify-storage/doge-image.png)
