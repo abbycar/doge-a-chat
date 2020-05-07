@@ -5,11 +5,11 @@ This is a Slack slash command chatbot written in Python that takes an image URL 
 
 For example, the app takes this image:
 
-![doge og](https://i.kym-cdn.com/entries/icons/original/000/013/564/doge.jpg)
+<img src="https://i.kym-cdn.com/entries/icons/original/000/013/564/doge.jpg" width="300">
 
 And returns this image:
 
-![doge dogeified](https://storage.googleapis.com/dogeify-storage/20200501-185355)
+<img src="https://storage.googleapis.com/dogeify-storage/20200501-185355" width="300">
 
 
 
