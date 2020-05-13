@@ -23,6 +23,7 @@ To kick off the process, a user enter the `/doge` command followed by the image 
 
 The functionality of this app is broken down into two Cloud Functions.
 
+![arch](https://storage.googleapis.com/dogeify-storage/doge.png)
 ### doge-queue
 Triggered by HTTP requests from the Slackbot. 
 
