@@ -1,5 +1,5 @@
 google-api-python-client==1.7.11
-flask==1.1.1
+flask==2.3.2
 slackeventsapi==2.1.0
 google-cloud-vision==1.0.0
 pillow==7.0.0
